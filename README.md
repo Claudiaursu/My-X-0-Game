@@ -1,1 +1,3 @@
-# My-X-0-Game
+## My X&0 Personalised Game
+### Rules
+The main goal of this game is to be the first player who makes a combination of 4 of their symbols in a diagonal, horizontal, or vertical row. When a player wins, the other loses the game. A new symbol can be placed on the board, on a cell, only if the number of enemy neighbors is less or equal than the number of the current player neighbors for that cell. In this case, the neighbours that are taken into account are the ones in line or in coloumn. Also, the player has the ability to move a symbol to another cell, if he wants. The symbol can be replaced only to a neighbor cell (including diagonal neighbors). 
