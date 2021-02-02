@@ -9,6 +9,6 @@ For example, a winning configuration for X would be the one showed in the exampl
 ### Facilities
 * The player can choose the size of the grid, by introducing the desired number of lines and columns. The grid would be the size N * M, where N(number of lines) and M(number of columns) would be in the [5,10] interval.
 * The player can choose the algorithm that the computer would use in order to generate the possible moves and choose the best one, according to their scores. The options are MINIMAX or ALPHA-BETA algorithms.
-* The player can choose the level of dificulty (easy, medium or advanced). Wheter the player has chosen minimax or alpha-beta algorithm, the level of dificuty would be represented by the maximum depth in the algorithm's tree.
+* The player can choose the level of difficulty (easy, medium or advanced). Wheter the player has chosen minimax or alpha-beta algorithm, the level of dificuty would be represented by the maximum depth in the algorithm's tree.
 * The player can choose what symbol to play with (X or 0). The X always starts first, no matter who is playing the X.
 * The game also can be played in an interface implemented with pygame library. 
