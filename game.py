@@ -605,12 +605,6 @@ class Stare:
 
     def verificaPozitieMutare(self, linieNoua, coloanaNoua, linieVeche, coloanaVeche):
         #verificare daca e o pozitie vecina pe linie/coloana/diagonala
-        # scadere = (linieVeche + coloanaVeche) - (linieNoua + coloanaNoua)
-        # if abs(scadere) in [0, 1, 2] and self.tabla_joc.matr[linieNoua][coloanaNoua] == Joc.GOL:
-        #     return True
-        # else:
-        #     return False
-
         if self.tabla_joc.matr[linieNoua][coloanaNoua] == Joc.GOL and abs(linieNoua - linieVeche) == 1 and coloanaNoua == coloanaVeche:
             return True
         elif self.tabla_joc.matr[linieNoua][coloanaNoua] == Joc.GOL and abs(coloanaNoua - coloanaVeche) == 1 and linieVeche == linieNoua:
